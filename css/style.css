@@ -1,0 +1,391 @@
+/* =======================
+    common css start
+======================= */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+    width: 1160px;
+    margin: 0 auto;
+}
+
+
+.btn {
+    margin-top: 27px;
+}
+
+.btn a {
+    background: #A43820;
+    font-family: var(--font-family);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px;
+    transition: .4s linear;
+}
+
+.btn a:hover {
+    background: #BA5536;
+
+}
+
+.btn i {
+    margin-left: 10px;
+
+}
+
+:root {
+    --color: white;
+    --fontweight: 500;
+    --font-size: 16px;
+    --font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* =======================
+    common css end
+======================= */
+
+
+/* =======================
+    google font start
+======================= */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+/* =======================
+    google font end
+======================= */
+
+/* =======================
+    nav css start
+======================= */
+
+nav {
+    background: transparent;
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+
+}
+
+nav .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .main ul {
+    display: flex;
+
+}
+
+nav .main ul li {
+    margin-right: 50px
+}
+
+nav .main ul li a {
+    color: var(--color);
+    font-weight: var(--fontweight);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+
+
+}
+
+nav .main .btn {
+    margin-top: 0;
+}
+
+nav .main .btn i {
+    margin-right: 10px;
+}
+
+nav .main .btn a {
+    display: inline-block;
+    background: #A43820;
+    padding: 10px 24px;
+    color: var(--color);
+    font-weight: var(--fontweight);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    transition: .4 linear;
+
+}
+
+nav .main .btn a:hover {
+    background: #BA5536;
+
+}
+
+/* =======================
+    nav css end
+======================= */
+
+/* =======================
+    banner css start
+======================= */
+
+#banner-part {
+    background: #10437A;
+    padding-top: 135px;
+    padding-bottom: 114px;
+}
+
+#banner-part .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner-part .main .text .conmebol {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--color);
+    width: 450px;
+
+}
+
+
+
+#banner-part .main .img img {
+    width: 556px;
+    height: 438px;
+    animation: imgm 8s linear .4s infinite alternate;
+
+}
+
+@keyframes imgm {
+    0% {
+        margin-right: 50px;
+    }
+
+    25% {
+        margin-right: 0;
+    }
+
+    50% {
+        margin-left: 50px;
+    }
+
+    75% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-right: 50px;
+    }
+
+}
+
+/* =======================
+    banner css end
+======================= */
+
+
+/* =======================
+    player css start
+======================= */
+#player-part {
+    margin-top: 70px;
+}
+
+#player-part .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+
+
+
+}
+
+#player-part .main .img-text {
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background: white;
+    width: 330px;
+}
+
+#player-part .main .img-text .img img {
+    width: 330px;
+    height: 256px;
+}
+
+#player-part .main .img-text .text .name {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+}
+
+#player-part .main .img-text .text .info {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-top: 10px;
+    line-height: 26px;
+}
+
+
+/* =======================
+    player css end
+======================= */
+
+/* =======================
+   hightlight css start
+======================= */
+
+#highlight-part {
+    margin-top: 165px;
+}
+
+#highlight-part .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#highlight-part .main .video {
+    width: 45%;
+}
+
+#highlight-part .main .text {
+    width: 45%;
+}
+
+#highlight-part .main .text .match-head {
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    line-height: 60px;
+}
+
+#highlight-part .main .text .match-details {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-top: 8px;
+    line-height: 28px;
+}
+
+#highlight-part .main .text .btn {
+    margin-top: 34px;
+}
+
+
+/* =======================
+   heightlight css end
+======================= */
+
+/* =======================
+   sponsor css start
+======================= */
+
+#sponsor-part {
+    margin-top: 70px;
+}
+
+#sponsor-part h3 {
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#sponsor-part .main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sponsor-part .main .img {
+    margin: 30px;
+}
+
+/* =======================
+   sponsor css end
+======================= */
+
+
+/* =======================
+   footer css start
+======================= */
+
+#footer-part {
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+
+#footer-part .main {
+    text-align: center;
+}
+
+#footer-part .main .logo img {
+    width: 483px;
+    height: 110px;
+}
+
+#footer-part .main .icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer-part .main .icon i {
+    width: 32px;
+    height: 32px;
+    color: #969BAB;
+    background: #E7E7E8;
+    border-radius: 50%;
+    line-height: 32px;
+    margin: 0 7px;
+}
+
+#footer-part .main .copyright {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* =======================
+   footer css end
+======================= */
+
+
+/* ===============================
+        Responsive  css start
+================================== */
+
+
+
+
+/* ===============================
+            Responsive  css start
+=================================== */
