@@ -388,7 +388,7 @@ nav .main .btn a:hover {
         Responsive  css start
 ================================== */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 688.99px) {
 
     body,
     html {
@@ -506,7 +506,7 @@ nav .main .btn a:hover {
 /* for tablet divices start */
 
 
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
 
     body,
     html {
