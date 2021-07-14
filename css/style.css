@@ -584,7 +584,7 @@ nav .main .btn a:hover {
     }
 
     #player-part .main .img-text .img img {
-        width: auto;
+        width: 100%;
     }
 
 
